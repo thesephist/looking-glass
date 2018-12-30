@@ -1,6 +1,6 @@
 {
   "name": "looking-glass",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "A simple web screenshot API using Puppeteer",
   "main": "src/index.js",
   "repository": "git@github.com:thesephist/looking-glass.git",
