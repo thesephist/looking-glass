@@ -38,7 +38,7 @@ app.get('/screenshot', (req, res) => {
 
 app.get('/', (_req, res) => {
     res.status(400);
-    res.setHeader({'Content-Type': 'text/plain'});
+    res.set('Content-Type', 'text/plain');
     res.send('Invalid request');
 });
 
